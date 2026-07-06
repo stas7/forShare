@@ -1,0 +1,24 @@
+permissions:
+  approval-request.withdraw-own:
+    description: Withdraw own approval request before approval starts
+
+roleMappings:
+  employee:
+    - approval-request.withdraw-own
+  manager:
+    - approval-request.withdraw-own
+
+platform:
+  audit:
+    events:
+      APPROVAL_REQUEST_WITHDRAWN:
+        topicAlias: platform-audit
+        schemaVersion: 1
+        deliveryProfile: standard-durable
+        allowedAttributes:
+          - previousStatus
+          - newStatus
+          - requestVersion
+    topics:
+      platform-audit:
+        name: ${PLATFORM_AUDIT_TOPIC}
