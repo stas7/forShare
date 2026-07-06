@@ -26,6 +26,7 @@
 4. [Инструкции для AI-агентов](docs/openspec-guide/04-agent-instructions.md)
 5. [Glossary и правила языка](docs/openspec-guide/05-glossary.md)
 6. [Классификация change](docs/openspec-guide/06-change-classification.md)
+7. [OpenSpec commands и роли](docs/openspec-guide/07-openspec-commands.md)
 
 ## Процессы
 

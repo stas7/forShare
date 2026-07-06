@@ -58,6 +58,7 @@ openspec/changes/<change-name>/
 4. [04-agent-instructions.md](04-agent-instructions.md) — правила для AI-агентов, test expectations и ADR traceability.
 5. [05-glossary.md](05-glossary.md) — единые термины и правила языка.
 6. [06-change-classification.md](06-change-classification.md) — когда нужны OpenSpec change, design, ADR и emergency exception.
+7. [07-openspec-commands.md](07-openspec-commands.md) — кто, когда и какие OpenSpec commands запускает.
 
 После этого выберите процесс под конкретную ситуацию.
 
